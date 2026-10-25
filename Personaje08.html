@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash path</title>
+
+    <link rel="icon" href="Img/LogoNavegación.png">
+
+    <link rel="stylesheet" href="StylePersonajes07.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+<body style="background-image: url(Img/Personajes/Fondo08.png);">
+    
+    <!-- Barra de navegación -->
+
+    <header class="content">
+  
+        <nav class="navbar navbar-expand-lg navbar-dark Fondo fixed-top px-3 px-md-4">
+    
+            <div class="container-fluid">
+
+                <a class="navbar-brand d-flex align-items-center" href="Index.html">
+                    <img src="Img/LogoBarraNavegación.png" alt="Splash Path" width="140" class="Logo">
+                </a>
+
+                <!-- Para celulares -->
+
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuNavegacion">
+
+                    <ul class="navbar-nav mx-auto nav-underline gap-2 gap-lg-3 py-3 py-lg-0 text-center text-lg-start align-items-center">
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="Index.html">
+                                <i class="bi bi-house-door-fill me-1"></i> Inicio
+                            </a>
+                        </li>
+
+          
+                        <li class="nav-item">
+                            <a class="nav-link" href="Noticias.html">
+                                <i class="bi bi-newspaper me-1"></i> Noticias
+                            </a>
+                        </li>
+
+          
+                        <li class="nav-item">
+                            <a class="nav-link active" href="Personajes.html">
+                                <i class="bi bi-people-fill me-1"></i> Personajes
+                            </a>
+                        </li>
+
+          
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                                <i class="bi bi-collection-play-fill me-1"></i> Recursos
+                            </a>
+          
+                            <ul class="dropdown-menu dropdown-menu-dark border-0 shadow-lg rounded-4">
+                                <li><a class="dropdown-item py-2" href="Presentación.html">Presentación</a></li>
+                                <li><a class="dropdown-item py-2" href="Mundo.html">Mundo</a></li>
+                            </ul>
+          
+                        </li>
+          
+                        <li class="nav-item">
+                            <a class="nav-link" href="Nosotros.html">
+                                <i class="bi bi-info-circle-fill me-1"></i> Nosotros
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Iniciar sesión -->
+
+                    <div class="d-flex justify-content-center mt-3 mt-lg-0">
+              
+                        <a href="#" class="nav-link BotonSesion d-flex align-items-center gap-2" data-bs-toggle="modal" data-bs-target="#modalSesion">
+                            
+                            <span>Iniciar sesión</span>
+            
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                            </svg>
+          
+                        </a>
+
+                    </div>
+
+                </div>
+            
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="Centrar">
+            <div class="Tarjeta position-relative">
+                <a href="Personajes.html">
+                    <button type="button" class="btn-close btn-close-custom position-absolute top-0 end-0 m-3" aria-label="Close"></button>
+                </a>
+                <div class="row align-items-center h-100">
+                    <div class="col-sm-5 position-relative">
+                        <img src="Img/Personajes/Personaje08.png" alt="Personaje08" class="Imagen">
+                    </div>
+                
+                    <div class="col-sm-7 ps-sm-2">
+                        <div class="contenido-texto p-4">
+                            <h2 style="text-align: center;">???</h2>
+                            <p>No se sabe de dónde vino, pero su presencia altera el equilibrio de la naturaleza.</p>
+                            <p>Su origen es completamente incierto, pero su aparición representa una gran amenaza para el equilibrio del entorno y la pureza del agua.</p>
+                            <p>Nadie sabe con certeza quién se oculta tras este velo, pero solo aquellos con la valentía suficiente para enfrentarlo podrán descubrir la verdad.</p>
+                        </div>
+                    </div>
+               </div>
+            </div>
+
+            <a href="Personaje07.html" class="btn-nav-flotante btn-prev" aria-label="Anterior">
+                <i class="bi bi-chevron-left"></i>
+            </a>
+  
+            <a href="Personaje01.html" class="btn-nav-flotante btn-next" aria-label="Siguiente">
+                <i class="bi bi-chevron-right"></i>
+            </a>
+        </section>
+    </main>
+
+    <footer class="text-white FondoFooter">
+  
+        <div class="container">
+  
+            <div class="row g-4 w-100">
+      
+                <div class="col-12 col-sm-6 col-md-3">
+      
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <img src="Img/Navegar.png" alt="Navegar" height="30px">
+                        <h3 class="fw-bold fs-4 m-0">Navegar</h3>
+                    </div>
+      
+                    <nav>
+      
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li><a href="Index.html">Inicio</a></li>
+                            <li><a href="Personajes.html">Personajes</a></li>
+                            <li><a href="Presentación.html">Recursos</a></li>
+                            <li><a href="Nosotros.html">Nosotros</a></li>
+                        </ul>
+        
+                    </nav>
+      
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-md-3">
+
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <img src="Img/Explora.png" alt="Explora" height="30px">
+                        <h3 class="fw-bold fs-4 m-0">Explora</h3>
+                    </div>
+
+                    <nav>
+
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li><a href="Presentación.html">Presentación</a></li>
+                            <li><a href="Mundo.html">Mundo</a></li>
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+      
+                <div class="col-12 col-sm-6 col-md-3">
+       
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <img src="Img/Ayuda.png" alt="Ayuda" height="30px">
+                        <h3 class="fw-bold fs-4 m-0">Ayuda</h3>
+                    </div>
+       
+                    <nav>
+       
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li><a href="Mundo.html">Cómo jugar</a></li>
+                        </ul>
+       
+                    </nav>
+      
+                </div>
+
+      
+                <div class="col-12 col-sm-6 col-md-3">
+      
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <img src="Img/Contáctanos.png" alt="Contactanos" height="30px">
+                        <h3 class="fw-bold fs-4 m-0">Contáctanos</h3>
+                    </div>
+      
+                    <p class="small text-light opacity-75 mb-3">splashpath.211116@gmail.com</p>
+
+                    <h4 class="fw-bold fs-5 mb-2">Síguenos en:</h4>
+        
+                    <nav class="d-flex gap-3 align-items-center">
+        
+                        <a href="https://www.facebook.com/profile.php?id=61593232408254" target="_blank" class="RedSocialIcono">
+                            <div class="d-flex gap-3 fs-3 text-white">
+                                <i class="bi bi-facebook"></i>
+                        </a>
+        
+                        <a href="https://www.instagram.com/splashpath.211116/" target="_blank" class="RedSocialIcono">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+        
+                        <a href="https://www.youtube.com/@Splashpath-p7u" target="_blank" class="RedSocialIcono">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+
+                        <a href="https://www.tiktok.com/@splash_path21?is_from_webapp=1&sender_device=pc" target="_blank" class="RedSocialIcono">
+                            <i class="bi bi-tiktok"></i>
+                        </a>
+        
+                    </nav>
+     
+                </div>
+            </div>
+
+            <div class="text-center pt-4 mt-4 border-top border-secondary border-opacity-25 w-100">
+                <p class="small m-0 text-white-50"> © 2026 Splash Path - ¡Cada gota cuenta, cada acción transforma! </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Inicio de sesión -->
+
+    <div class="modal fade" id="modalSesion" tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content Inicio p-4">
+
+                <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                <div class="modal-body text-center pt-0">
+
+                    <!-- IniciarSesión -->
+     
+                    <div id="vistaLogin">
+     
+                        <h3 class="fw-bold text-white mb-2">¡Bienvenido de nuevo!</h3>
+                        <p class="text-white-50 small mb-4">Ingresa a tu usuario para continuar en Splash Path</p>
+
+                        <form>
+     
+                            <div class="mb-3 text-start">
+                                <label for="text" class="form-label text-light small fw-bold">Nombre de usuario</label>
+                                <input type="text" class="form-control input-gaming" id="name" placeholder="splashpath" required>
+                            </div>
+
+            
+                            <div class="mb-3 text-start">
+                                <label for="password" class="form-label text-light small fw-bold">Contraseña</label>
+                                <input type="password" class="form-control input-gaming" id="password" placeholder="••••••••" required>
+                            </div>
+
+            
+                            <div class="d-flex justify-content-between align-items-center mb-4 small">
+            
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="recordar">
+                                    <label class="form-check-label text-light" for="recordar">Recordarme</label>
+                                </div>
+            
+                                <a href="#" class="enlace-gaming text-decoration-none" onclick="mostrarRecuperar(event)">¿Olvidaste tu contraseña?</a>
+            
+                            </div>
+
+                            <button type="submit" class="btn InicioSesion w-100 py-2 fw-bold">INICIAR SESIÓN</button>
+          
+                        </form>
+
+          
+                        <div class="mt-4 pt-3 border-top border-secondary small text-light">
+                            ¿No tienes una cuenta? <a href="#" class="enlace-gaming fw-bold text-decoration-none" onclick="mostrarRegistro(event)">Regístrate</a>
+                        </div>
+        
+                    </div>
+
+                    <!-- ContraseñaRecuperar -->
+        
+                    <div id="vistaRecuperar" class="d-none">
+        
+                        <h3 class="fw-bold text-white mb-2">¿Olvidaste tu contraseña?</h3>
+                        <p class="text-white-50 small mb-4">Ingresa tu nombre de usuario para continuar</p>
+
+                        <form onsubmit="procesarRecuperacion(event)">
+        
+                            <div class="mb-3 text-start">
+                                <label for="usuarioRecuperar" class="form-label text-light small fw-bold">Nombre de usuario</label>
+                                <input type="text" class="form-control input-gaming" id="usuarioRecuperar" placeholder="Ej. SuperSplash" required>
+                            </div>
+
+                            <button type="submit" class="btn InicioSesion w-100 py-2 fw-bold mt-2">VERIFICAR USUARIO</button>
+        
+                        </form>
+
+          
+                        <div class="mt-4 pt-3 border-top border-secondary small text-light">
+                            ¿Ya la recordaste? <a href="#" class="enlace-gaming fw-bold text-decoration-none" onclick="mostrarLogin(event)">Inicia sesión</a>
+                        </div>
+        
+                    </div>
+
+                    <!-- Registrarse -->
+        
+                    <div id="vistaExitoRecuperar" class="d-none">
+    
+                        <h3 class="fw-bold text-white mb-2">¡Usuario encontrado!</h3>
+                        <p class="text-white-50 small mb-4">Escribe tu nueva contraseña para ingresar</p>
+
+          
+                        <form onsubmit="finalizarRestablecimiento(event)">
+          
+                            <div class="mb-3 text-start">
+                                <label for="nuevaPassword" class="form-label text-light small fw-bold">Nueva Contraseña</label>
+                                <input type="password" class="form-control input-gaming" id="nuevaPassword" placeholder="••••••••" required>
+                            </div>
+
+                            <button type="submit" class="btn InicioSesion w-100 py-2 fw-bold mt-2">GUARDAR Y ENTRAR</button>
+          
+                        </form>
+        
+                    </div>
+
+                    <!-- Registro -->
+        
+                    <div id="vistaRegistro" class="d-none">
+        
+                        <h3 class="fw-bold text-white mb-2">Crea tu cuenta</h3>
+                        <p class="text-white-50 small mb-4">Únete a la aventura en Splash Path</p>
+
+                        <form onsubmit="procesarRegistro(event)">
+        
+                            <div class="mb-3 text-start">
+                                <label for="regUsuario" class="form-label text-light small fw-bold">Nombre de usuario</label>
+                                <input type="text" class="form-control input-gaming" id="regUsuario" placeholder="Ej. SuperSplash" required>
+                            </div>
+
+                            <div class="mb-3 text-start">
+                                <label for="regEmail" class="form-label text-light small fw-bold">Correo electrónico</label>
+                                <input type="email" class="form-control input-gaming" id="regEmail" placeholder="nombre@ejemplo.com" required>
+                            </div>
+
+        
+                            <div class="mb-3 text-start">
+                                <label for="regPassword" class="form-label text-light small fw-bold">Contraseña</label>
+                                <input type="password" class="form-control input-gaming" id="regPassword" placeholder="••••••••" required>
+                            </div>
+
+                            <button type="submit" class="btn InicioSesion w-100 py-2 fw-bold mt-2">CREAR CUENTA</button>
+        
+                        </form>
+
+                        <div class="mt-4 pt-3 border-top border-secondary small text-light">
+                            ¿Ya tienes una cuenta? <a href="#" class="enlace-gaming fw-bold text-decoration-none" onclick="mostrarLogin(event)">Inicia sesión</a>
+                        </div>
+        
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="IniciarSesion.js"></script>
+
+    
+</body>
+</html>
